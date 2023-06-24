@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nicegui-pw-generator"
+version = "0.1.0"
+description = ""
+authors = ["Tatsuya Tomita <tat@seriousexplosion.net>"]
+readme = "README.md"
+packages = [{include = "nicegui_pw_generator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nicegui = "^1.2.22"
+logtail-python = "^0.2.6"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
