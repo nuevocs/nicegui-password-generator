@@ -7,5 +7,4 @@ async def main_content():
     main = ui_elements.MainUIElements()
 
 
-
 ui.run()

@@ -5,6 +5,7 @@ from src import logging_func
 
 logger: logging.Logger = logging_func.logging_better_stack(30)  # WARNING=30
 
+
 # Generate a random password
 def generating_random_password(
         punctuation_flag: bool = False,
